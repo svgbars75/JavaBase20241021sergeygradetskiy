@@ -2,14 +2,10 @@ package com.gmail.gradetskiy.homework3;
 
 public class OrderOnline {
     public static void main(String[] args) {
-        byte order;// объявляем переменные
-        String product;
-        float price;
-        short address;
-        order = 1;
-        product = "smartphone";
-        price = 305.99f;
-        address = 10;
+        byte order = 1;
+        String product = "smartphone";
+        float price = 305.99f;
+        short address = 10;
         System.out.println("Order № " + order + " Client: Alice.");
         System.out.println("Product: " + product + ",");
         System.out.println("price EUR " + price + ".");
@@ -25,3 +21,4 @@ public class OrderOnline {
 
     }
 }
+
