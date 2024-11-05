@@ -10,6 +10,7 @@ public class OrderOnline {
         System.out.println("Product: " + product + ",");
         System.out.println("price EUR " + price + ".");
         System.out.println("Address: Moon Street, " + address + ".");
+        System.out.println(" ");
         order = 2;
         product = "laptop";
         price = 570.95f;
